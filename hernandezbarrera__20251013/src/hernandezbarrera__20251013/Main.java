@@ -15,6 +15,14 @@ public class Main {
      */
     public static void main(String[] args) {
         
+        ListaEnlazada mi_lista = new ListaEnlazada();
+
+        mi_lista.agregarAlInicio(10);
+        mi_lista.agregarAlFinal(100);
+
+        mi_lista.agregarEn(1, 50);
+        mi_lista.mostrar();
+        
         Nodo primer_nodo = new Nodo(50);
         Nodo segundo_nodo = new Nodo(80);
         Nodo tercer_nodo = new Nodo(90);
