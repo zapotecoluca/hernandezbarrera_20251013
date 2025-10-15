@@ -20,7 +20,7 @@ public class ListaEnlazada {
         
             cabeza = nuevoNodo;
 
-        } else {
+        }else{
 
             Nodo actual = cabeza;
 
@@ -50,7 +50,7 @@ public class ListaEnlazada {
 
         Nodo nuevoNodo = new Nodo(data);
 
-        if (posicion == 0) {
+        if(posicion == 0) {
 
             nuevoNodo.siguiente = cabeza;
             cabeza = nuevoNodo;
